@@ -23,7 +23,7 @@ cd demo && ../pdf2img.sh *.pdf
 if you want to trim empty margin part, uncomment `trim` option in [pdf2img.sh](pdf2img.sh),
 so that you can get the trimed version of the first page:
 
-![](01-B-04.CH.EP.To-Left-Test-0-trim.jpg)
+![](demo/01-B-04.CH.EP.To-Left-Test-0-trim.jpg)
 
 ## Pros & Cons
 
@@ -38,3 +38,16 @@ Cons
 ## Acknowledgements
 
 demo pdf come from DENG JunHui's *Computational Graphics* MOOC course.
+
+## MISC Notes
+
+```bash
+# ppt -> pdf
+libreoffice --headless --invisible --convert-to pdf *.ppt
+
+# file -> pdf
+unoconv -f pdf file
+
+# crop pdf
+pdfcrop file.pdf cropped.pdf
+```
