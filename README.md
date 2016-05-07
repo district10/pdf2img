@@ -41,6 +41,8 @@ demo pdf come from DENG JunHui's *Computational Graphics* MOOC course.
 
 ## MISC Notes
 
+-    opition `density` is important.
+
 ```bash
 # ppt -> pdf
 libreoffice --headless --invisible --convert-to pdf *.ppt
